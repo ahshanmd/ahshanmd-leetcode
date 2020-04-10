@@ -9,3 +9,5 @@ def PairSumTwoPointers(A, total, sum):
         else:
             high = high - 1
     return False
+
+print(PairSumTwoPointers([1, 2, 4, 7], 4, 6))
